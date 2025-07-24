@@ -1,0 +1,428 @@
+*{ margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/black-painted-wall-textured-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-item a:hover{
+        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px;
+}   
+
+#image{
+    margin-top: 2em;
+}
+
+#image img{
+    /* border: 1px solid black; */
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+#image h1{
+    font-size: 4.3em;
+    font-weight: bold;
+    color: white;
+}
+
+#image h2{
+    font-size: 4.3em;
+    color: white;
+    font-weight: normal;
+}
+
+#image p{
+    font-size: 1.5em;
+    color: white;
+}
+
+#button button{
+        background: none;
+        border: 1px solid white;
+        padding: 0.5em;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+        border-radius: 10px;
+}
+
+#button button:hover{
+        border-bottom: 1px solid white;
+        box-shadow: 0px 0px 10px 0px;
+        border-radius: 5px;
+}
+
+#button img{
+        width: 35px;
+        color: white;
+        height: 35px;
+}
+
+.rounded-circle{
+    transition: all 0.5s ease;
+}
+
+.rounded-circle:hover{
+        transform: scale(1.1);
+}
+#solution h2{
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+}
+
+#solution p{
+    font-size: 2em;
+    color: white;
+}
+
+#history h2{
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#skill h2{
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#expe{
+    width: 100%;
+    text-align: center;
+}
+
+#expe p{
+    color: white;
+    font-size: 2em;
+}
+
+.text-slide{
+    /* border: 1px solid black; */
+    height: 70px;
+    margin-bottom: 2em;
+}
+
+.text-slide ul{
+    display: flex;
+    font-size: 4em;
+    color: white;
+    font-weight: bold;
+}
+
+.text-slide li{
+    margin: 0.5em;
+    font-style: italic;
+    /* border: 1px solid black; */
+    width: auto;
+    opacity: 0.8;
+}
+
+#send-message{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#talking{
+    /* border: 1px solid black; */
+    height: auto;
+    /* flex-direction: column; */
+    display: inline-block;
+    width: auto;
+}
+
+#send-message h2{
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+}
+
+#input-box{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#input-box input{
+    width: 45%;
+    background: none;
+    margin-left: 0.8em;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    margin-top: 1.5em;
+    font-size: 20px;
+    /* padding-top: 1em; */
+}
+
+#subject{
+    /* border: 1px solid black; */
+    display: grid;
+    margin-top: 1em;
+    flex-wrap: wrap;
+    /* background: none; */
+}
+
+#subject input, textarea{
+    background: none;
+    margin-left: 0.8em;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 20px;
+    width: 92.5%;
+    margin-top: 1em;
+}
+
+.button input{
+     border: none;
+        margin-top: 1em;
+        margin-left: 1em;
+        background: none;
+        color: white;
+        padding:0.5em;
+}
+
+.button input:hover{
+        border-bottom: 1px solid white;
+        box-shadow: 0px 0px 10px 0px;
+        border-radius: 5px;
+}
+
+#contact{
+    /* background-color: white; */
+    color: white;
+    margin-right: 2em;
+    margin-top: 5em;
+}
+
+#contact button{
+        /* border: 1px solid white; */
+        border: none;
+        background: none;
+        color: white;
+        padding:0.5em;
+}
+
+#contact button:hover{
+        border-bottom: 1px solid white;
+        box-shadow: 0px 0px 10px 0px;
+        border-radius: 5px;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+
+#portfolio img:hover{
+     box-shadow: 0px 0px 15px 0px white;
+    transform: scale(1.1);
+    border-radius: 50%;
+}
+
+#footer a{
+    padding: 0.5em;
+    margin-left: 1em;
+}
+
+
+#footer p{
+    color: white;
+    font-size: 1em;
+}
+
+.fix-icon{
+    /* float:right; */
+    float: right;
+    right: 0.5em;
+    text-align: right;
+   cursor: pointer;
+   position: relative;
+   bottom: 1em;
+    
+}
+
+/* responsive for tablet device */
+@media only screen and (max-width:768px){
+        #image h1{
+           font-size: 2em;
+        }
+
+        #image h2,#history h2,#skill h2{
+           font-size: 2em;
+        }
+
+        #button p{
+            font-size: 1.5em;
+        }
+
+        #button button{
+                width: auto;
+                height: auto;
+        }
+
+        #image-container img{
+                width: 15%;
+        }
+
+        #expe p{
+            font-size: 1.5em;
+        }
+
+        .text-slide ul{
+            font-size: 2em;
+            line-height: 2em;
+            margin-bottom: 8em;
+        }
+
+         #send-message h2{
+                font-size: 1.8em;
+                text-wrap: wrap;
+                
+         }
+
+         #input-box input{
+                width: 100%;
+                margin-top: 1.5em;
+                height: auto;
+         }
+
+          #subject textarea{
+                width: 98%;
+                margin-top: 1.5em;
+                height: auto;
+         }
+
+         #contact{
+                width: 100%;
+                margin-bottom: 8em;
+         }
+
+         #footer{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-wrap: wrap;
+         }
+
+         #portfolio{
+                width: 95%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+         }
+
+         .icon-container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+         }
+}
+
+
+/* responsive for mobile device */
+@media only screen and (max-width:480px){
+        #image h1{
+           font-size: 2em;
+        }
+
+        #image h2,#history h2,#skill h2{
+           font-size: 2em;
+        }
+
+        #button p{
+            font-size: 1.5em;
+        }
+
+        #button button{
+                width: auto;
+                height: auto;
+        }
+
+        #image-container img{
+                width: 15%;
+        }
+
+        #expe p{
+            font-size: 1.5em;
+        }
+
+        .text-slide ul{
+            font-size: 2em;
+            line-height: 2em;
+            margin-bottom: 8em;
+        }
+
+         #send-message h2{
+                font-size: 1.8em;
+                text-wrap: wrap;
+                
+         }
+
+         #input-box input{
+                width: 100%;
+                margin-top: 1.5em;
+                height: auto;
+         }
+
+         #contact{
+                width: 100%;
+                margin-bottom: 8em;
+         }
+
+         #footer{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-wrap: wrap;
+         }
+
+         #portfolio{
+                width: 95%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+         }
+
+         .icon-container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+         }
+}
+
+
+
